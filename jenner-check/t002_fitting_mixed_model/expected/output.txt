@@ -1,0 +1,29 @@
+      The Mixed Procedure       
+       Model Information        
+
+Item                       Value
+----------------------  --------
+Dependent Variable      pressure
+Estimation Method           REML
+Number of Observations        21
+
+Covariance Parameter Estimates
+
+Cov Parm  Estimate
+--------  --------
+Toy        11.4477
+Residual   10.3716
+
+        Type III Tests of Fixed Effects         
+
+Effect      Num DF    Den DF   F Value    Pr > F
+--------  --------  --------  --------  --------
+adhesive         2      12.0      6.36    0.0131
+
+         Fit Statistics          
+
+Statistic                   Value
+-----------------------  --------
+-2 Res Log Likelihood    107.7902
+AIC (Smaller is Better)  111.7902
+BIC (Smaller is Better)  113.8792

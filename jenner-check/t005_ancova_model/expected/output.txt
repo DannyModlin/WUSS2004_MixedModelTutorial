@@ -1,0 +1,128 @@
+        The Mixed Procedure        
+         Model Information         
+
+Item                          Value
+-------------------------  --------
+Dependent Variable          deposit
+Estimation Method              REML
+Degrees of Freedom Method       KR2
+Number of Observations           72
+
+Covariance Parameter Estimates
+
+Cov Parm  Estimate
+--------  --------
+Residual  112.6330
+
+         Type III Tests of Fixed Effects          
+
+Effect        Num DF    Den DF   F Value    Pr > F
+----------  --------  --------  --------  --------
+temp               2      66.0     63.70    <.0001
+thick              1      66.0    112.43    <.0001
+temp*thick         2      66.0      8.70    0.0004
+
+         Fit Statistics          
+
+Statistic                   Value
+-----------------------  --------
+-2 Res Log Likelihood    538.2000
+AIC (Smaller is Better)  552.2000
+BIC (Smaller is Better)  568.1367
+
+                     Solution for Fixed Effects                     
+
+Effect        Estimate  Standard Error        DF   t Value  Pr > |t|
+-----------  ---------  --------------  --------  --------  --------
+(Intercept)    95.5824         22.9587      66.0      4.16    0.0001
+temp1          18.8191         30.1300      66.0      0.62    0.5344
+temp2        -122.3085         29.7889      66.0     -4.11    0.0001
+thick           0.1013          0.0117      66.0      8.69    <.0001
+temp1*thick    -0.0016          0.0152      66.0     -0.11    0.9145
+temp2*thick     0.0621          0.0152      66.0      4.07    0.0001
+        The Mixed Procedure        
+         Model Information         
+
+Item                          Value
+-------------------------  --------
+Dependent Variable          deposit
+Estimation Method              REML
+Degrees of Freedom Method       KR2
+Number of Observations           72
+
+Covariance Parameter Estimates
+
+Cov Parm  Estimate
+--------  --------
+Residual  138.1510
+
+        Type III Tests of Fixed Effects         
+
+Effect      Num DF    Den DF   F Value    Pr > F
+--------  --------  --------  --------  --------
+temp             2      68.0     51.93    <.0001
+thick            1      68.0     91.66    <.0001
+
+         Fit Statistics          
+
+Statistic                   Value
+-----------------------  --------
+-2 Res Log Likelihood    555.0528
+AIC (Smaller is Better)  565.0528
+BIC (Smaller is Better)  576.4361
+
+                    Solution for Fixed Effects                     
+
+Effect       Estimate  Standard Error        DF   t Value  Pr > |t|
+-----------  --------  --------------  --------  --------  --------
+(Intercept)   67.9159         23.6420      68.0      2.87    0.0054
+temp1         15.9818          1.9885      68.0      8.04    <.0001
+temp2         -1.1649          2.0004      68.0     -0.58    0.5623
+thick          0.1150          0.0120      68.0      9.57    <.0001
+        The Mixed Procedure        
+         Model Information         
+
+Item                          Value
+-------------------------  --------
+Dependent Variable          deposit
+Estimation Method              REML
+Degrees of Freedom Method       KR2
+Number of Observations           72
+
+Covariance Parameter Estimates
+
+Cov Parm  Estimate
+--------  --------
+Residual  138.1510
+
+        Type III Tests of Fixed Effects         
+
+Effect      Num DF    Den DF   F Value    Pr > F
+--------  --------  --------  --------  --------
+temp             2      68.0     51.93    <.0001
+thick            1      68.0     91.66    <.0001
+
+         Fit Statistics          
+
+Statistic                   Value
+-----------------------  --------
+-2 Res Log Likelihood    555.0528
+AIC (Smaller is Better)  565.0528
+BIC (Smaller is Better)  576.4361
+
+                    Solution for Fixed Effects                     
+
+Effect       Estimate  Standard Error        DF   t Value  Pr > |t|
+-----------  --------  --------------  --------  --------  --------
+(Intercept)   67.9159         23.6420      68.0      2.87    0.0054
+temp1         15.9818          1.9885      68.0      8.04    <.0001
+temp2         -1.1649          2.0004      68.0     -0.58    0.5623
+thick          0.1150          0.0120      68.0      9.57    <.0001
+
+                                   Estimates                                   
+
+Label                    Estimate  Standard Error        DF   t Value  Pr > |t|
+-----------------------  --------  --------------  --------  --------  --------
+Intercept for temp 900                                    .         .         .
+Intercept for temp 1000                                   .         .         .
+Intercept for temp 1100                                   .         .         .

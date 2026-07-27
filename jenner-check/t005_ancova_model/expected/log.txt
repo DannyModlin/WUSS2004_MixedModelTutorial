@@ -1,0 +1,50 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library AGLM uses 1 concatenated paths.
+NOTE: DATA aglm.wafer4
+
+NOTE: Processing inline DATALINES (72 lines)
+
+NOTE: Read 72 rows from DATALINES.
+NOTE: Wrote aglm.wafer4 (72 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SGPLOT data=aglm.wafer4
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg
+NOTE: PROC MIXED data=aglm.wafer4
+
+NOTE: PROC MIXED: using R wrapper (mixed_renderer.R).
+NOTE: PROC MIXED results written to: ./ods_output/mixed_results.spec.json
+NOTE: No random effects, fitting with lm()
+NOTE: ODS plot written: mixed_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: mixed_residual_histogram_panel.spec.json
+NOTE: ODS plot written: mixed_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: mixed_qq_plot.spec.json
+NOTE: ODS plot written: mixed_diagnostics.spec.json
+NOTE: PROC MIXED ODS Graphics generated.
+NOTE: PROC MIXED data=aglm.wafer4
+
+NOTE: PROC MIXED: using R wrapper (mixed_renderer.R).
+NOTE: PROC MIXED results written to: ./ods_output/mixed_results.spec.json
+NOTE: No random effects, fitting with lm()
+NOTE: ODS plot written: mixed_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: mixed_residual_histogram_panel.spec.json
+NOTE: ODS plot written: mixed_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: mixed_qq_plot.spec.json
+NOTE: ODS plot written: mixed_diagnostics.spec.json
+NOTE: PROC MIXED ODS Graphics generated.
+NOTE: PROC MIXED data=aglm.wafer4
+
+NOTE: PROC MIXED: using R wrapper (mixed_renderer.R).
+NOTE: PROC MIXED results written to: ./ods_output/mixed_results.spec.json
+NOTE: No random effects, fitting with lm()
+NOTE: ESTIMATE Intercept for temp 900 failed: no applicable method for 'fixef' applied to an object of class "lm"
+NOTE: ESTIMATE Intercept for temp 1000 failed: no applicable method for 'fixef' applied to an object of class "lm"
+NOTE: ESTIMATE Intercept for temp 1100 failed: no applicable method for 'fixef' applied to an object of class "lm"
+NOTE: ODS plot written: mixed_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: mixed_residual_histogram_panel.spec.json
+NOTE: ODS plot written: mixed_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: mixed_qq_plot.spec.json
+NOTE: ODS plot written: mixed_diagnostics.spec.json
+NOTE: PROC MIXED ODS Graphics generated.

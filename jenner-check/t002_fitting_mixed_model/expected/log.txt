@@ -1,0 +1,55 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library AGLM uses 1 concatenated paths.
+NOTE: DATA aglm.toy
+
+NOTE: Processing inline DATALINES (7 lines)
+
+NOTE: Read 21 rows from DATALINES.
+NOTE: Wrote aglm.toy (21 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=aglm.toy
+
+NOTE: Read 21 rows from aglm.toy.
+NOTE: Wrote aglm.toy (21 rows, 3 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC SGPLOT data=aglm.toy
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg
+NOTE: PROC SGPLOT data=aglm.toy
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot1.svg
+NOTE: PROC MIXED data=aglm.toy
+
+NOTE: PROC MIXED: using Python wrapper (mixed_renderer.py).
+NOTE: PROC MIXED results written to: ./ods_output/mixed_results.spec.json
+NOTE: Formula: pressure ~ C(adhesive)
+NOTE: Group variable: toy
+NOTE: Estimation method: REML (reml=True)
+NOTE: 
+NOTE: Mixed Linear Model Results:
+NOTE:            Mixed Linear Model Regression Results
+NOTE: ===========================================================
+NOTE: Model:               MixedLM  Dependent Variable:  pressure
+NOTE: No. Observations:    21       Method:              REML    
+NOTE: No. Groups:          7        Scale:               10.3716 
+NOTE: Min. group size:     3        Log-Likelihood:      -53.8951
+NOTE: Max. group size:     3        Converged:           Yes     
+NOTE: Mean group size:     3.0                                   
+NOTE: -----------------------------------------------------------
+NOTE:                  Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+NOTE: -----------------------------------------------------------
+NOTE: Intercept        70.186    1.766 39.754 0.000 66.725 73.646
+NOTE: C(adhesive)[T.b]  5.714    1.721  3.320 0.001  2.340  9.088
+NOTE: C(adhesive)[T.c]  0.914    1.721  0.531 0.595 -2.460  4.288
+NOTE: Group Var        11.448    3.273                           
+NOTE: ===========================================================
+NOTE: 
+NOTE: Results written to: ./ods_output/mixed_results.json
+NOTE: ODS plot written: mixed_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: mixed_residual_histogram_panel.spec.json
+NOTE: ODS plot written: mixed_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: mixed_qq_plot.spec.json
+NOTE: ODS plot written: mixed_diagnostics.spec.json
+NOTE: PROC MIXED ODS Graphics generated.

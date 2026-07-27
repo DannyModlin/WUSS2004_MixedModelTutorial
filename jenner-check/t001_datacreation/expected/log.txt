@@ -1,0 +1,269 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library AGLM uses 1 concatenated paths.
+NOTE: DATA aglm.toy
+
+NOTE: Processing inline DATALINES (7 lines)
+
+NOTE: Read 21 rows from DATALINES.
+NOTE: Wrote aglm.toy (21 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=aglm.toy
+
+NOTE: Read 21 rows from aglm.toy.
+NOTE: Wrote aglm.toy (21 rows, 3 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA aglm.bakery
+
+NOTE: Processing inline DATALINES (12 lines)
+
+NOTE: Read 12 rows from DATALINES.
+NOTE: Wrote aglm.bakery (12 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.grass
+
+NOTE: Processing inline DATALINES (15 lines)
+
+NOTE: Read 15 rows from DATALINES.
+NOTE: Wrote aglm.grass (90 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.wood
+
+NOTE: Processing inline DATALINES (56 lines)
+
+NOTE: Read 56 rows from DATALINES.
+NOTE: Wrote aglm.wood (56 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.wood2
+
+NOTE: Processing inline DATALINES (45 lines)
+
+NOTE: Read 45 rows from DATALINES.
+NOTE: Wrote aglm.wood2 (45 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.thickness
+
+NOTE: Processing inline DATALINES (72 lines)
+
+NOTE: Read 72 rows from DATALINES.
+NOTE: Wrote aglm.thickness (72 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.heart
+
+NOTE: Processing inline DATALINES (72 lines)
+
+NOTE: Read 72 rows from DATALINES.
+NOTE: Wrote aglm.heart (72 rows, 12 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.wafer4
+
+NOTE: Processing inline DATALINES (72 lines)
+
+NOTE: Read 72 rows from DATALINES.
+NOTE: Wrote aglm.wafer4 (72 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.wheat
+
+NOTE: Processing inline DATALINES (60 lines)
+
+NOTE: Read 60 rows from DATALINES.
+NOTE: Wrote aglm.wheat (60 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.sscores
+
+NOTE: Processing inline DATALINES (120 lines)
+
+NOTE: Read 100 rows from DATALINES.
+NOTE: Wrote aglm.sscores (100 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.cottonseed
+
+NOTE: Processing inline DATALINES (15 lines)
+
+NOTE: Read 15 rows from DATALINES.
+NOTE: Wrote aglm.cottonseed (60 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.washer
+
+NOTE: Processing inline DATALINES (9 lines)
+
+NOTE: Read 36 rows from DATALINES.
+NOTE: Wrote aglm.washer (36 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.fibers
+
+NOTE: Processing inline DATALINES (8 lines)
+
+NOTE: Read 30 rows from DATALINES.
+NOTE: Wrote aglm.fibers (30 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.multic
+
+NOTE: Processing inline DATALINES (390 lines)
+
+NOTE: Read 100 rows from DATALINES.
+NOTE: Wrote aglm.multic (100 rows, 10 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.machine
+
+NOTE: Processing inline DATALINES (12 lines)
+
+NOTE: Read 12 rows from DATALINES.
+NOTE: Wrote aglm.machine (12 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.fev1mult
+
+NOTE: Processing inline DATALINES (72 lines)
+
+NOTE: Read 72 rows from DATALINES.
+NOTE: Wrote aglm.fev1mult (72 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.fev1uni
+
+
+NOTE: Read 13 rows from aglm.fev1mult.
+NOTE: Wrote aglm.fev1uni (104 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.growthmulti aglm.growthuni
+
+NOTE: Multi-output DATA step splits stream into: aglm.growthmulti aglm.growthuni
+NOTE: Processing inline DATALINES (27 lines)
+NOTE: Wrote aglm.growthmulti (27 rows, 8 columns).
+NOTE: Wrote aglm.growthuni (108 rows, 8 columns).
+
+NOTE: Read 27 rows from DATALINES.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.multicenter
+
+NOTE: Processing inline DATALINES (135 lines)
+
+NOTE: Read 100 rows from DATALINES.
+NOTE: Wrote aglm.multicenter (100 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.multictr2
+
+NOTE: Processing inline DATALINES (151 lines)
+
+NOTE: Read 100 rows from DATALINES.
+NOTE: Wrote aglm.multictr2 (100 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.mathscore
+
+NOTE: Processing inline DATALINES (3111 lines)
+
+NOTE: Read 100 rows from DATALINES.
+NOTE: Wrote aglm.mathscore (100 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.water
+
+NOTE: Processing inline DATALINES (79 lines)
+
+NOTE: Read 79 rows from DATALINES.
+NOTE: Wrote aglm.water (30 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.wafer
+
+NOTE: Processing inline DATALINES (144 lines)
+
+NOTE: Read 100 rows from DATALINES.
+NOTE: Wrote aglm.wafer (100 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.scores
+
+NOTE: Processing inline DATALINES (1780 lines)
+
+NOTE: Read 100 rows from DATALINES.
+NOTE: Wrote aglm.scores (100 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.favorable
+
+NOTE: Processing inline DATALINES (16 lines)
+
+NOTE: Read 16 rows from DATALINES.
+NOTE: Wrote aglm.favorable (16 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.plant
+
+NOTE: Processing inline DATALINES (112 lines)
+
+NOTE: Read 100 rows from DATALINES.
+NOTE: Wrote aglm.plant (100 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.school
+
+NOTE: Processing inline DATALINES (7181 lines)
+
+NOTE: Read 100 rows from DATALINES.
+NOTE: Wrote aglm.school (100 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.trees
+
+NOTE: Processing inline DATALINES (35 lines)
+
+NOTE: Read 35 rows from DATALINES.
+NOTE: Wrote aglm.trees (35 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA aglm.postdoc
+
+NOTE: Processing inline DATALINES (543 lines)
+
+NOTE: Read 100 rows from DATALINES.
+NOTE: Wrote aglm.postdoc (100 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds

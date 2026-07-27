@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_ancova_model",
+  "source_file": "5_ANCOVAModel.sas",
+  "source_blob_sha": "2f0883d56b1431041ec0263a9c15d0407413271f",
+  "source_commit": "8104672ad8c1b65e61d67069c6315d0943d848b4",
+  "notes": "Author's ANCOVA mixed models on wafer4 (SGPLOT reg by temp, then three PROC MIXED fits with a continuous covariate thick, thick*temp interaction, SOLUTION, and ESTIMATE of intercepts by temp). Script unchanged; aglm.wafer4 created in autoexec from 1_DataCreation.sas."
+}

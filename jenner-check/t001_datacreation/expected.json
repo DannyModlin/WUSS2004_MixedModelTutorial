@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-27T21:33:54.251196+00:00",
+  "_captured_run_id": "r_b1b1bacf8ecd454eb1f93decd9794a1e",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote aglm.toy (21 rows, 3 columns).",
+    "NOTE: Wrote aglm.grass (90 rows, 4 columns).",
+    "NOTE: Wrote aglm.wafer4 (72 rows, 5 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

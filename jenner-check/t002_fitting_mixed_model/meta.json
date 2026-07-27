@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_fitting_mixed_model",
+  "source_file": "2_FittingAMixedModel.sas",
+  "source_blob_sha": "62411efc011b2e3bbf094b5a5c05d1f436960b77",
+  "source_commit": "8104672ad8c1b65e61d67069c6315d0943d848b4",
+  "notes": "Author's one-way random-effects mixed model on the toy adhesive data (SGPLOT series + vbox, then PROC MIXED with random toy). Script unchanged; aglm.toy created in autoexec from 1_DataCreation.sas."
+}
