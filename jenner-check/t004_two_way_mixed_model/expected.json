@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-27T21:33:54.251196+00:00",
+  "_captured_run_id": "r_68cecebf303f4fb39fae97549cd8a1d4",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote aglm.grass (90 rows, 4 columns).",
+    "NOTE: PROC MIXED data=aglm.grass",
+    "NOTE: lmer formula: yield ~ method + (1 | variety) + (1 | method_variety_re)"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

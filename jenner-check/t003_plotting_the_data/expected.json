@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-27T21:33:54.251196+00:00",
+  "_captured_run_id": "r_3aa907a046ea4d4ab199c748498c1f57",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote aglm.grass (90 rows, 4 columns).",
+    "NOTE: PROC SGPLOT data=aglm.grass"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

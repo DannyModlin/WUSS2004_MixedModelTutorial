@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_plotting_the_data",
+  "source_file": "3_PlottingTheData.sas",
+  "source_blob_sha": "300115a66ce9621de24b765bc96792ce32a71c04",
+  "source_commit": "8104672ad8c1b65e61d67069c6315d0943d848b4",
+  "notes": "Author's PROC SGPLOT vline (mean yield by variety, grouped by method) on the grass data. Script unchanged; aglm.grass created in autoexec from 1_DataCreation.sas."
+}

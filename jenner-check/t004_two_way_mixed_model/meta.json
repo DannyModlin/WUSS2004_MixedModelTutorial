@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_two_way_mixed_model",
+  "source_file": "4_TwoWayMixedModel.sas",
+  "source_blob_sha": "1feeb0bc66550f5e005557f9ffe4c42e673c8d68",
+  "source_commit": "8104672ad8c1b65e61d67069c6315d0943d848b4",
+  "notes": "Author's two-way mixed model on grass (random variety and method*variety, CONTRAST and ESTIMATE statements, DDFM=KR2). Script unchanged; aglm.grass created in autoexec from 1_DataCreation.sas."
+}

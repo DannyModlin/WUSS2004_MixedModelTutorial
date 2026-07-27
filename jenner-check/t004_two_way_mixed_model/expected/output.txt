@@ -1,0 +1,44 @@
+        The Mixed Procedure        
+         Model Information         
+
+Item                          Value
+-------------------------  --------
+Dependent Variable            yield
+Estimation Method              REML
+Degrees of Freedom Method       KR2
+Number of Observations           90
+
+    Covariance Parameter Estimates    
+
+Cov Parm   Subject            Estimate
+---------  -----------------  --------
+Intercept  method_variety_re    4.7715
+Intercept  variety              0.4285
+Residual                       18.4347
+
+        Type III Tests of Fixed Effects         
+
+Effect      Num DF    Den DF   F Value    Pr > F
+--------  --------  --------  --------  --------
+method           2       8.0      9.84    0.0070
+
+         Fit Statistics          
+
+Statistic                   Value
+-----------------------  --------
+-2 Res Log Likelihood    524.6886
+AIC (Smaller is Better)  536.6887
+BIC (Smaller is Better)  551.6875
+
+                              Estimates                              
+
+Label          Estimate  Standard Error        DF   t Value  Pr > |t|
+-------------  --------  --------------  --------  --------  --------
+A vs B and C    13.5167          3.0680       8.0      4.41    0.0023
+Method A mean   23.0100          1.2863       8.0     17.89    <.0001
+
+                     Contrasts                      
+
+Label           Num DF    Den DF   F Value    Pr > F
+------------  --------  --------  --------  --------
+A vs B and C         1       8.0     18.76    0.0025

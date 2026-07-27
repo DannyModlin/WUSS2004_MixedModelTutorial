@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_datacreation",
+  "source_file": "1_DataCreation.sas",
+  "source_blob_sha": "3a200cf3f040da8e7b0249aa4fd542396f041c7a",
+  "source_commit": "8104672ad8c1b65e61d67069c6315d0943d848b4",
+  "notes": "Author's data-creation script: builds every tutorial dataset (toy, grass, wafer4, fev1uni/mult, and ~30 more) from inline DATALINES + a PROC SORT. Only edit: libname aglm redirected from '.' to WORK so it runs standalone."
+}
